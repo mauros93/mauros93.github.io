@@ -1,0 +1,38 @@
+$yellow: #36f3ba;
+@mixin margenes ($top, $botton){
+    margin-top: $top;
+    margin-bottom: $botton;
+}
+
+
+.jumbotron{/*Cuando usamos .jumbotron este estilo aplica a todas la etiquetas que tengan class = "jumbotron"*/
+    background-color: $yellow;
+    color: black;
+    @include margenes(50px, 0px);
+}
+
+footer{
+    background-color: $yellow;    
+    @include margenes(20,15)
+}
+
+.btn-comprar{
+    width: 100%;
+
+}
+
+.card-margin-top{
+    margin-top: 40px;
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.card-hotel{
+    width: 100%;
+    padding: 2px 0 0 0;
+}
+
+
+

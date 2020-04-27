@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"><!--Podemos vincular varias hojas de estilos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css">       
+
+  <title>E-commerce</title>
+  </head>
+
+  <body>
+    <nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="#" class = "navbar-brand" >E-commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="colapse navbar-collapse" id = "navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Promociones</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="jumbotron">
+            <h1 class="display-4">E-commerce</h1>
+            <hr class="my-4">            
+        </div>
+
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" area-current = "page">Contacto</li>
+                </ol>                
+            </nav>
+
+            <!--Aca crearemos un formulario, los formularios los creamos dentro de un div el cual contega la class="container" -->
+            <h1>Dejanos tus comentarios</h1>
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-9">
+                        <label for="domicilio">Domicilio</label>
+                        <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+                    </div>
+                    <div class="form-group col-sm-3">
+                        <label for="provincia">Departamento</label>
+                        <select id="provincia" class="form-control">
+                            <option selected>Antioquia</option>
+                            <option selected>Caldas</option>
+                            <option selected>Quindio</option>
+                            <option selected>Risaralda</option>
+                        </select>
+                    </div>                    
+                </div>
+                <div class="form-group">                    
+                    <label for="comentarios">Agrega tus comentarios</label>
+                    <textarea  id="comentarios" class="form-control", rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" id="gridCheck" class="form-check-input">
+                        <label class="form-check-label" for="gridCheck" >Quiero que me contacten</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>         
+    </header>
+
+    
+
+    
+    
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://facebook.com">Facebook</a><br>
+                <a href="https://twitter.com">Twitter</a><br>
+                <a href="https://instagram.com">Instagram</a><br>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p><span class="octicon octicon-home icons"></span> Medellin robledo</p>
+                    <p><span class="octicon octicon-device-mobile icons"></span>+57-301-320-1103</p>
+                    <p><span class="octicon octicon-mail icons"></span>builes@utp.edu.co</p>
+                </address>            
+            </div>
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://facebook.com">Nosotros</a><br>
+                <a href="https://twitter.com">Terminos y condiciones</a><br>
+                <a href="https://instagram.com">Contactanos</a><br>
+
+                
+            </div>
+
+
+        </div>
+    </footer> 
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

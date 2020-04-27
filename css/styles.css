@@ -1,0 +1,22 @@
+.jumbotron {
+  /*Cuando usamos .jumbotron este estilo aplica a todas la etiquetas que tengan class = "jumbotron"*/
+  background-color: #fffa19;
+  color: black; }
+
+footer {
+  background-color: #fffa19;
+  margin-top: 20px;
+  padding: 15px; }
+
+.btn-comprar {
+  width: 100%; }
+
+.card-margin-top {
+  margin-top: 40px; }
+
+.icons {
+  margin-right: 10px; }
+
+.card-hotel {
+  width: 100%;
+  padding: 2px 0 0 0; }

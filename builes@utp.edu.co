@@ -1,0 +1,35 @@
+[33mcommit fdc62d3d71697260cddba19d642111f5101bd73d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: mauros93 <builes@utp.edu.co>
+Date:   Sat Mar 28 19:05:04 2020 -0500
+
+    Actualizacion de la pagina web
+
+[33mcommit 81d4b46da57e35f89ad45de9d87d3b73567f09e4[m
+Author: mauros93 <builes@utp.edu.co>
+Date:   Sat Mar 28 11:37:55 2020 -0500
+
+    Incluimos bootstrap y las librerias de las cuales depende bootstrap jquery y pooper.js
+
+[33mcommit d05abe4c9abd7e1514c1a6fb6877273baecad070[m
+Author: mauros93 <builes@utp.edu.co>
+Date:   Sat Mar 28 03:21:41 2020 -0500
+
+    Agregamos el index.html
+
+[33mcommit f0d424a5c749e5019362da90818a71c381d5584c[m
+Author: mauros93 <builes@utp.edu.co>
+Date:   Sat Mar 28 03:14:07 2020 -0500
+
+    Incluimos lite-server y .gitignore
+
+[33mcommit 2b1b2f11fc055fb007f6c56d55c3efd462a6078c[m
+Author: mauros93 <builes@utp.edu.co>
+Date:   Sat Mar 28 02:23:09 2020 -0500
+
+    Definicion del package .json
+
+[33mcommit d25b61ef8fab14e08ea1434250d2d5ba027a70cd[m
+Author: Mauricio Builes <builes@utp.edu.co>
+Date:   Sat Mar 28 07:08:30 2020 +0000
+
+    Initial commit
